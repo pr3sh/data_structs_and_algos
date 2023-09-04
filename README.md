@@ -125,6 +125,18 @@ Irrespective of your choice of scripting language, all *Stack* data structures s
 - **isEmpty:** Checks if the stack is empty.
 
 
+> The primary feature of a stack is that it onlys allows access to the top element, therefore you can't access items below the top item without removing the top items one by one.
+
+#### **`Time Complexities of Stacks :`**
+
+|         **`Operation`**               |       **`Time Complexity`**                                                 | 
+|---------------------------------------|:---------------------------------------------------------------------------:|  
+| **`Push`**                            | *O(1)* - Constant time to add an element to the top.                          | 
+|  **`Pop`**                            | *O(1)* - Constant time to remove the top element.                             |   
+| **`Peek/Top`**                        | *O(1)* - Constant time to look at the top element.                            |
+| **`isEmpty`**                         | *O(1)* - Constant time to check if the stack is empty.                        |
+
+Space complexity for a stack containing *n* elements is  *O(n)*.
 
 
 
