@@ -51,10 +51,43 @@ employee_mapping = {
     - Deletion: *`O(1)`*
     - Lookup: *`O(1)`*
 
-> However, in the worst-case scenario, these operations can degrade to O(n), where n is the number of entries in the hash table. 
+> However, in the worst-case scenario, these operations can degrade to *`O(n)`*, where n is the number of entries in the hash table. 
 - **`Space Complexity`**
 The space complexity for a hash table is *`O(n)`*, where *n* is the number of entries. This accounts for the storage of keys and their associated values.
 
+```python
+#initialization
+d = {}
+d = dict()
+
+#insertion
+d[key] = value
+
+#lookup
+value = d[key]
+
+#deletion
+del d[key]
+
+#check for the existance of key
+if key in d:
+    # Do something
+
+#retrive all keys in dictionary
+keys = d.keys()
+
+#retrieve all values in dictionary
+values = d.values()
+
+#get all key-value pairs.
+items = d.items()
+
+#if key doesn't exist in dictionary, set default value
+d.setdefault(key, default_value)
+
+#retrieve value with a default if key is not present.
+value = d.get(key, default_value)
+```
 
 
 
