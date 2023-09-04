@@ -184,14 +184,7 @@ Irrespective of your choice of scripting language, all *Queue* data structures s
 | **`isEmpty/isFull`**                  | *O(1)* - Constant time to check                                               |
 
 
-Space complexity for a queue containing 
-�
-n elements is 
-�
-(
-�
-)
-O(n).
+> Space complexity for a queue containing *n* elements is *O(n)*.
 
 
 
