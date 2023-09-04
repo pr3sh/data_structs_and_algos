@@ -238,9 +238,9 @@ Some common operations with heaps include:
 - **Deletion:** Deleting the maximum element (in a max heap) or the minimum element (in a min heap), also known as *heapify*, takes *`O(logn)`* time.
 - **Peek:** Get the maximum item from a max heap or the minimum item from a min heap in *`O(1)`* time without removing it.
 
+Heaps are typically implemented as binary trees, but don't necesarily have to be binary. The important thing is not the number of children each node has, but that the tree satisfies the heap property.
 
-Heaps are typically implemented as binary trees, but they don't have to be binary. The important thing is not the number of children each node has, but that the tree satisfies the heap property.
-
+> The space complexity for a heap containing *`O(n)`*.
 
 
 
