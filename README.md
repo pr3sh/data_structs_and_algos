@@ -233,6 +233,14 @@ Heaps are specialized tree-based data structures that satisfies the heap propert
     - For any given node *`I`*, the value of *`I`* is less than or equal to the values of its children. 
     - The smallest element is found at the *root*.
 
+Some common operations with heaps include:
+- **Insertion:** Insert a new node takes *`O(logn)`* time.
+- **Deletion:** Deleting the maximum element (in a max heap) or the minimum element (in a min heap), also known as *heapify*, takes *`O(logn)`* time.
+- **Peek:** Get the maximum item from a max heap or the minimum item from a min heap in *`O(1)`* time without removing it.
+
+
+Heaps are typically implemented as binary trees, but they don't have to be binary. The important thing is not the number of children each node has, but that the tree satisfies the heap property.
+
 
 
 
