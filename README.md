@@ -160,6 +160,10 @@ is_empty = not stack
 
 #### **`Queue`**:
 
+Queues are linear data structures that follow *First In First Out* (*FIFO*) principle. For example, a line of people waiting at a bank. The first person in line will be the first person to be served.
+
+
+
 
 
 
