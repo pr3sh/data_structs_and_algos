@@ -55,6 +55,7 @@ employee_mapping = {
 - **`Space Complexity`**
 The space complexity for a hash table is *`O(n)`*, where *n* is the number of entries. This accounts for the storage of keys and their associated values.
 
+> Useful ways to manipulate dictionaries in *Python*.
 ```python
 #initialization
 d = {}
@@ -87,6 +88,18 @@ d.setdefault(key, default_value)
 
 #retrieve value with a default if key is not present.
 value = d.get(key, default_value)
+
+#merge two dictionaries
+d.update(another_dict)
+
+#remove & return value for given key
+value = d.pop(key, default_value)
+
+#remove and return some (key, value) pair as a 2-tuple.
+key, value = d.popitem()
+
+#remove all items from dictionary
+d.clear()
 ```
 
 
