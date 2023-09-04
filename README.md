@@ -138,6 +138,24 @@ Irrespective of your choice of scripting language, all *Stack* data structures s
 
 > Space complexity for a stack containing *n* elements is  *O(n)*.
 
+You can use the **`deque`** method from the collections library to implement stack operations but the methodologies can be applied using built-in python **`Lists`** as show below.
+
+```python
+#Push item to the top of stack.
+stack.append(item)
+```
+```python
+#Pop item from the top of stack.
+item = stack.pop()
+```
+```python
+#Retrieve the top item from stack
+top = stack[-1]
+```
+```python
+#Check is stack is empty
+is_empty = not stack
+```
 
 
 #### **`Queue`**:
