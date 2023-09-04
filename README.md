@@ -60,20 +60,24 @@ The space complexity for a hash table is *`O(n)`*, where *n* is the number of en
 #initialization
 d = {}
 d = dict()
-
+```
+```python
 #insertion
 d[key] = value
-
+```
+```python
 #lookup
 value = d[key]
 
 #deletion
 del d[key]
-
+```
+```python
 #check for the existance of key
 if key in d:
     # Do something
-
+```
+```python
 #retrive all keys in dictionary
 keys = d.keys()
 
@@ -82,22 +86,26 @@ values = d.values()
 
 #get all key-value pairs.
 items = d.items()
-
+```
+```python
 #if key doesn't exist in dictionary, set default value
 d.setdefault(key, default_value)
 
 #retrieve value with a default if key is not present.
 value = d.get(key, default_value)
-
+```
+```python
 #merge two dictionaries
 d.update(another_dict)
-
+```
+```python
 #remove & return value for given key
 value = d.pop(key, default_value)
 
 #remove and return some (key, value) pair as a 2-tuple.
 key, value = d.popitem()
-
+```
+```python
 #remove all items from dictionary
 d.clear()
 ```
