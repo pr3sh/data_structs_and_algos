@@ -45,6 +45,19 @@ employee_mapping = {
                         }   
          }
 ```
+- Generally speaking, hashmaps use two main methods to store & retrieve data; **`get()`** and **`put()`**.
+- **`Time Complexity`**:
+    - Insertion: *`O(1)`*
+    - Deletion: *`O(1)`*
+    - Lookup: *`O(1)`*
+
+> However, in the worst-case scenario, these operations can degrade to O(n), where n is the number of entries in the hash table. 
+- **`Space Complexity`**
+The space complexity for a hash table is *`O(n)`*, where *n* is the number of entries. This accounts for the storage of keys and their associated values.
+
+
+
+
 ###### **`Arrays`**:
 ###### **`Linked List`**:
 ###### **`Stacks`**:
