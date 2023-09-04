@@ -6,11 +6,11 @@ This repostitory aims at covering the fundamental components of Data Structure &
 -  **Table of contents**:
   - [Introduction](#introduction)
   - [Data Structures](#data-structures)
-  	- [Hash Maps]
-  	- [ Arrays]
-  	- [Linked List]
-  	- [ Stacks]
-  	- [ Queue]
+    - [Hash Maps]
+    - [ Arrays]
+    - [Linked List]
+    - [ Stacks]
+    - [ Queue]
   - [Algorithms](#algorithms)
   
 
@@ -31,7 +31,20 @@ Data Structures specifically, refer to the organization, storage and retrival of
 ###### **`Hash Maps`**:
 
 
-A Hashmap is a data structure used to store information
+A Hashmap is a data structure used to store information and primarily consists of two main components; a *key* and *value*. For example, an employer might have a unique **`employeeID`**, which maps to each individual in the organization as shown below.
+
+```python
+employee_mapping = {
+     "1000356" : {
+                "full_name": "John Doe",
+                "postion"  : "Software Developer"
+                 }      ,
+     "1017890" : {
+                "full_name": "Sofia Cummings",
+                "position" : "Program Director"
+                }   
+    }
+```
 
 
 
