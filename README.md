@@ -224,6 +224,18 @@ is_empty = not queue
 #### **`Heaps`**:
 
 
+Heaps are specialized tree-based data structures that satisfies the heap property. It is an important structure because it's efficient for priority queue operations. There are primarily two types of heaps:
+
+1. **Max Heap:** 
+    - For any given node *`I`*, the value of *`I`* is greater than or equal to the values of its children. 
+    - The largest element is found at the *root*.
+2. **Min Heap:** 
+    - For any given node *`I`*, the value of *`I`* is less than or equal to the values of its children. 
+    - The smallest element is found at the *root*.
+
+
+
+
 
 
 
