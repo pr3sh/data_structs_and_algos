@@ -28,7 +28,7 @@ Data Structures specifically, refer to the organization, storage and retrival of
 ### **`Data Structures`**:
 
 
-###### **`Hash Maps`**:
+#### **`Hash Maps`**:
 
 
 A Hashmap is a data structure used to store information and primarily consists of two main components; a *key* and *value*. For example, an employer might have a unique **`employeeID`**, which maps to each individual in the organization as shown below.
@@ -112,13 +112,13 @@ d.clear()
 
 
 
-###### **`Arrays`**:
-###### **`Linked List`**:
-###### **`Stacks`**:
+#### **`Arrays`**:
+#### **`Linked List`**:
+#### **`Stacks`**:
 
 A *stack* is a linear data structure that follows *LIFO* principle. *LIFO* is an acronym for *Last In First Out* and describes the behavior which are exihited by these data structures. For example, if you have a stack of books, stacked ontop of each other: the last book you place on the stack is the first book you'd remove from the stack.
 
-###### **`Queue`**:
+#### **`Queue`**:
 
 
 
