@@ -6,11 +6,11 @@ This repostitory aims at covering the fundamental components of Data Structure &
 -  **Table of contents**:
   - [Introduction](#introduction)
   - [Data Structures](#data-structures)
-    - [Hash Maps]
-    - [ Arrays]
-    - [Linked List]
-    - [ Stacks]
-    - [ Queue]
+    - [Hash Maps](#hash-maps)
+    - [ Arrays](#arrays)
+    - [Linked List](#linked-list)
+    - [ Stacks](#stacks)
+    - [ Queue](#queue)
   - [Algorithms](#algorithms)
   
 
@@ -35,15 +35,15 @@ A Hashmap is a data structure used to store information and primarily consists o
 
 ```python
 employee_mapping = {
-     "1000356" : {
-                "full_name": "John Doe",
-                "postion"  : "Software Developer"
-                 }      ,
-     "1017890" : {
-                "full_name": "Sofia Cummings",
-                "position" : "Program Director"
-                }   
-    }
+             "1000356" : {
+                        "full_name": "John Doe",
+                        "postion"  : "Software Developer"
+                         }      ,
+             "1017890" : {
+                        "full_name": "Sofia Cummings",
+                        "position" : "Program Director"
+                        }   
+         }
 ```
 
 
