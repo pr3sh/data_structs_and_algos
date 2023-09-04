@@ -13,6 +13,8 @@ This repostitory aims at covering the fundamental components of Data Structure &
     - [ Queue](#queue)
     - [Heaps](#heaps)
   - [Algorithms](#algorithms)
+    - [Depth First Search](#depth-first-search)
+    - [Breadth First Search](#breadth-first-search)
   
 
 
@@ -280,7 +282,7 @@ heapq.heappush(max_heap, -1 * value)
 max_value = -1 * heapq.heappop(max_heap)
 ```
 
-
+#### **`Depth First Search`**:
 
 
 
