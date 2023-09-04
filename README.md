@@ -242,8 +242,43 @@ Heaps are typically implemented as binary trees, but don't necesarily have to be
 
 > The space complexity for a heap containing *`O(n)`*.
 
+Python has a built-in library called **`heapq`** that provides functions to convert a regular list into a heap (implemented as a binary tree). By default, it creates a min heap. If you want to use a max heap, you can invert the order by multiplying the elements by -1.
 
 
+```python
+import heapq
+nums = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
+heapq.heapify(nums)  # Transforms nums in-place into a heap
+```
+
+```python
+#insertion
+heapq.heappush(nums, value)
+```
+
+```python
+min_value = heapq.heappop(nums)  # Returns and removes the smallest value from the heap
+```
+
+```python
+min_value = nums[0]
+```
+
+```python
+#create max heap
+max_heap = [-1 * i for i in nums]
+heapq.heapify(max_heap)
+```
+
+```python
+#insertion into max-heap
+heapq.heappush(max_heap, -1 * value)
+```
+
+```python
+#deletion from max-heap
+max_value = -1 * heapq.heappop(max_heap)
+```
 
 
 
