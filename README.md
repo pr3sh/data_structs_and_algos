@@ -118,6 +118,16 @@ d.clear()
 
 A *stack* is a linear data structure that follows *LIFO* principle. *LIFO* is an acronym for *Last In First Out* and describes the behavior which are exihited by these data structures. For example, if you have a stack of books, stacked ontop of each other: the last book you place on the stack is the first book you'd remove from the stack.
 
+Irrespective of your choice of scripting language, all *Stack* data structures should implement the following functionalities:
+- **Push:** Add an item to the top of the stack.
+- **Pop:** Remove item from top of the stack.
+- **Peek/Top:** Returns the top element of stack without removing it.
+- **isEmpty:** Checks if the stack is empty.
+
+
+
+
+
 #### **`Queue`**:
 
 
