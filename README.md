@@ -162,6 +162,37 @@ is_empty = not stack
 
 Queues are linear data structures that follow *First In First Out* (*FIFO*) principle. For example, a line of people waiting at a bank. The first person in line will be the first person to be served.
 
+Irrespective of your choice of scripting language, all *Queue* data structures should implement the following functionalities:
+- **Enqueue:** Adds an item to the rear of the queue.
+- **Dequeue:** Removes the front item from the queue.
+- **Front/Peek:** Returns the front element without removing it.
+- **Rear:** Returns the last element without removing it (not always used in basic queue implementations).
+- **isEmpty:** Checks if the queue is empty.
+- **isFull:** Checks if the queue is full (*relevant for queues with a fixed size, like array-based queues*).
+
+> The primary feature of a queue is that it allows access to only the front element, and items are added at the rear.
+
+
+#### **`Time Complexities of Queue :`**
+
+|         **`Operation`**               |       **`Time Complexity`**                                                   | 
+|---------------------------------------|:-----------------------------------------------------------------------------:|  
+| **`Enqueue`**                         | *O(1)* - Constant time to add an element to the rear.                         | 
+| **`Dequeue`**                         | *O(1)* - Constant time to remove the front element.                           |   
+| **`Front/Peek`**                      | *O(1)* - Constant time to look at the front element.                          |
+| **`Rear`**                            | *O(1)* - Constant time to look at the rear element (*if supported*).          |
+| **`isEmpty/isFull`**                  | *O(1)* - Constant time to check                                               |
+
+
+Space complexity for a queue containing 
+�
+n elements is 
+�
+(
+�
+)
+O(n).
+
 
 
 
