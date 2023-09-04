@@ -219,6 +219,8 @@ rear = queue[-1]
 is_empty = not queue
 ```
 
+> Although these operations can be done using Python's built-in lists data structure, it is not recommended. Using **`deque`** from the **`collections`** module is the recommended way to implement a queue in Python because of its efficient **`popleft()`** operation.
+
 #### **`Heaps`**:
 
 
