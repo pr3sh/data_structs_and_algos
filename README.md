@@ -11,6 +11,7 @@ This repostitory aims at covering the fundamental components of Data Structure &
     - [Linked List](#linked-list)
     - [ Stacks](#stacks)
     - [ Queue](#queue)
+    - [Heaps](#heaps)
   - [Algorithms](#algorithms)
   
 
@@ -138,7 +139,7 @@ Irrespective of your choice of scripting language, all *Stack* data structures s
 
 > Space complexity for a stack containing *n* elements is  *O(n)*.
 
-You can use the **`deque`** method from the collections library to implement stack operations but the methodologies can be applied using built-in python **`Lists`** as show below.
+You can use the **`deque`** method from the **`collections`** library to implement stack operations but the methodologies can be applied using built-in python **`Lists`** as show below.
 
 ```python
 #Push item to the top of stack.
@@ -185,6 +186,49 @@ Irrespective of your choice of scripting language, all *Queue* data structures s
 
 
 > Space complexity for a queue containing *n* elements is *O(n)*.
+
+
+You can use the **`deque`** method from the **`collections`** library to implement queue operations as shown below:
+
+```python
+from collections import deque
+
+#Initialize queue data structure
+queue = deque()
+```
+
+```python
+#Enqueue
+queue.append(item)
+
+
+#Dequeue
+item = queue.popleft()
+```
+
+```python
+#Front/peek
+front = queue[0]
+
+
+#Rear
+rear = queue[-1]
+```
+
+```python
+is_empty = not queue
+```
+
+#### **`Heaps`**:
+
+
+
+
+
+
+
+
+
 
 
 
