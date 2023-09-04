@@ -45,6 +45,10 @@ employee_mapping = {
                         }   
          }
 ```
+###### **`Arrays`**:
+###### **`Linked List`**:
+###### **`Stacks`**:
+###### **`Queue`**:
 
 
 
