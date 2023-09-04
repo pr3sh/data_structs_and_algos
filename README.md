@@ -136,7 +136,7 @@ Irrespective of your choice of scripting language, all *Stack* data structures s
 | **`Peek/Top`**                        | *O(1)* - Constant time to look at the top element.                            |
 | **`isEmpty`**                         | *O(1)* - Constant time to check if the stack is empty.                        |
 
-Space complexity for a stack containing *n* elements is  *O(n)*.
+> Space complexity for a stack containing *n* elements is  *O(n)*.
 
 
 
