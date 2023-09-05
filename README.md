@@ -286,6 +286,7 @@ max_value = -1 * heapq.heappop(max_heap)
 
 - Depth–first search (*DFS*) is an algorithm for traversing/searching trees and graph data structures. Starting from the root, explore as far as possible along each branch before backtracking.
 - Stacks are the main Data Structures needed when implementing *DFS* to keep track of the nodes discovered during traversal on specified branches which helps in backtracking of the graph.
+- *DFS* can be implemented both iteratively and *recursively*.
 
 
 
