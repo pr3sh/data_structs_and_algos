@@ -123,24 +123,24 @@ d.clear()
 
 **`Types of Linked Lists`**:
 
-- Singly Linked List: Each node contains data and a pointer to the next node.
+- **`Singly Linked List`**: Each node contains data and a pointer to the next node.
 - Doubly Linked List: Each node contains data, a pointer to the next node, and a pointer to the previous node.
 - Circular Linked List: The last node points back to the first node, forming a circle.
 
 **`Basic Operations`**:
-- Insertion: Add a new node to the list.
-- Deletion: Remove a node from the list.
-- Traversal: Access each node of the list, typically starting from the first node.
-- Search: Find a node in the list with a given value.
-- Update: Modify the data of a node.
+- **`Insertion`**: Add a new node to the list.
+- **`Deletion`**: Remove a node from the list.
+- **`Traversal`**: Access each node of the list, typically starting from the first node.
+- **`Search`**: Find a node in the list with a given value.
+- **`Update`**: Modify the data of a node.
 
 **`Advantages Over Arrays`**:
-- Dynamic Size: The size of a linked list can grow or shrink during execution.
-- Efficient Insertions/Deletions: Inserting or deleting elements doesn't require shifting other elements, as in an array.
+- **`Dynamic Size`**: The size of a linked list can grow or shrink during execution.
+- **`Efficient Insertions/Deletions`**: Inserting or deleting elements doesn't require shifting other elements, as in an array.
 
 **`Disadvantages`**:
-- Memory Usage: Each node requires extra memory for a pointer.
-- Sequential Access: Direct access to an element is not possible; you have to traverse the list from the beginning.
+- **`Memory Usage`**: Each node requires extra memory for a pointer.
+- **`Sequential Access`**: Direct access to an element is not possible; you have to traverse the list from the beginning.
 
 > *Example*
 
