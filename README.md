@@ -117,6 +117,26 @@ d.clear()
 
 #### **`Arrays`**:
 #### **`Linked List`**:
+
+- A linked list is a linear data structure where each element (commonly called a 'node') contains a data part and a reference (or link) to the next node in the sequence. 
+- Unlike arrays, data in a linked list are not stored in contiguous memory locations; they are linked using pointers, making the structure dynamic and flexible.
+
+Types of Linked Lists:
+Singly Linked List: Each node contains data and a pointer to the next node.
+Doubly Linked List: Each node contains data, a pointer to the next node, and a pointer to the previous node.
+Circular Linked List: The last node points back to the first node, forming a circle.
+Basic Operations:
+Insertion: Add a new node to the list.
+Deletion: Remove a node from the list.
+Traversal: Access each node of the list, typically starting from the first node.
+Search: Find a node in the list with a given value.
+Update: Modify the data of a node.
+Advantages Over Arrays:
+Dynamic Size: The size of a linked list can grow or shrink during execution.
+Efficient Insertions/Deletions: Inserting or deleting elements doesn't require shifting other elements, as in an array.
+Disadvantages:
+Memory Usage: Each node requires extra memory for a pointer.
+Sequential Access: Direct access to an element is not possible; you have to traverse the list from the beginning.
 #### **`Stacks`**:
 
 A *stack* is a linear data structure that follows *LIFO* principle. *LIFO* is an acronym for *Last In First Out* and describes the behavior which are exihited by these data structures. For example, if you have a stack of books, stacked ontop of each other: the last book you place on the stack is the first book you'd remove from the stack.
